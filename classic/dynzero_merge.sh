@@ -6,6 +6,8 @@
 # Copyright 2015 Sayghteight
 # En colaboracón con Berti
 
+clear
+
                 echo "##########################################################"
                 echo "##                                                      ##"
                 echo "##     Dyncore zero- Archivo de unificacion de SQL's    ##"
@@ -26,16 +28,16 @@
                 echo "continuara"
 sleep 5
 clear
-echo .
-echo .
-echo .
-echo    "  .__         .___.           .  ."            
-echo    "  |  \  .._     _/  _ ._. _   |\/| _ ._. _  _ "
-echo    "  |__/\_|[ )  ./__.(/,[  (_)  |  |(/,[  (_](/,"
-echo    "._|                               ._|   "
-echo    ""
-echo .
-echo .
+    echo .
+    echo .
+    echo .
+    echo    "  .__         .___.           .  ."            
+    echo    "  |  \  .._     _/  _ ._. _   |\/| _ ._. _  _ "
+    echo    "  |__/\_|[ )  ./__.(/,[  (_)  |  |(/,[  (_](/,"
+    echo    "._|                               ._|   "
+    echo    ""
+    echo "           Copyright @ Sayghteight 2015          "
+    echo .
 mkdir merge
 echo "Juntando los archivos de la carpeta updates 0.10"
 sleep 1
@@ -48,8 +50,8 @@ sleep 1
 cat updates/0.12/*.sql > merge/0.12-Allupdates.sql
 echo "Juntando los archivos de la carpeta updates 0.11"
 sleep 1
-cat updates/0.12.1/*.sql > merge/0.12.1-Allupdates.sqlecho 
-"Juntando los archivos de la carpeta updates 0.12.2"
+cat updates/0.12.1/*.sql > merge/0.12.1-Allupdates.sql
+echo "Juntando los archivos de la carpeta updates 0.12.1"
 sleep 1
 cat updates/0.12.2/*.sql > merge/0.12.2-Allupdates.sql
 echo "Juntando los archivos de la carpeta updates 0.12.2"
